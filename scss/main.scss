@@ -1,7 +1,5 @@
-// $main-color: hsl(198, 70%, 24%);
 $main-color: #1c2431;
 $light-color: #f4f4f4;
-// $secondary-color: hsl(0, 100%, 74%);
 $secondary-color: rgb(5, 160, 129);
 $background-projectsColor: hsl(218, 28%, 13%);
 * {
@@ -121,7 +119,6 @@ img {
     align-items: center;
     text-align: center;
     height: 80vh;
-    // padding-top: 13%;
 
     h1 {
       font-size: 5rem;
@@ -288,6 +285,7 @@ img {
 .hamburger {
   display: none;
 }
+
 // Media Queries
 
 @media (max-width: 768px) {
