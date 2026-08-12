@@ -246,6 +246,13 @@ img {
   grid-gap: 6rem;
   margin-bottom: 12rem;
 }
+.about-me p {
+  margin-bottom: 1rem;
+}
+
+.about-text p:last-child {
+  margin-bottom: 0;
+}
 
 #about .skills {
   display: -ms-grid;
@@ -267,13 +274,27 @@ img {
   -ms-flex-line-pack: center;
       align-content: center;
 }
-
+/*
 #about .tech-stack .tech-item {
   text-align: center;
 }
 
 #about .tech-stack .tech-item img {
   max-width: 30%;
+}
+  */
+#about .tech-stack .tech-item {
+  text-align: center;
+  background-color: #255672;
+  padding: 1.5rem 1rem;
+  border-radius: 1rem;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.6rem;
+}
+
+#about .tech-stack .tech-item p {
+  margin: 0;
+  text-align: center;
 }
 
 #contact {
